@@ -2,12 +2,11 @@
 
 ## Assessment
 
-Congratulations on going through today's course! Hopefully, you've learned some valuable skills along the wayand had fun doing it. Now it's time to put those skills to the test. In this assessment, you will train a new modelthat is able to recognize fresh and rotten fruit. You will need to get the model to a validation accuracy of 92% in order to pass the assessment, though we challenge you to do even better if you can. You will have to use the skills that you learned in the previous exercises. Specifically, we suggest using some combination of transferlearning, data augmentation, and fine tuning. Once you have trained the model to be at least 92% accurate onthe validation dataset, save your model, and then assess its accuracy. Let's get started!
+Congratulations on going through today's course! Hopefully, you've learned some valuable skills along the way and had fun doing it. Now it's time to put those skills to the test. In this assessment, you will train a new model that is able to recognize fresh and rotten fruit. You will need to get the model to a validation accuracy of 92% in order to pass the assessment, though we challenge you to do even better if you can. You will have to use the skills that you learned in the previous exercises. Specifically, we suggest using some combination of transfer learning, data augmentation, and fine tuning. Once you have trained the model to be at least 92% accurate onthe validation dataset, save your model, and then assess its accuracy. Let's get started!
 
 ## The Dataset 
 
-In this exercise, you will train a model to recognize fresh and rotten fruits. The dataset comes from Kaggle (https://www.kaggle.com/sriramr/fruits-fresh-and-rotten-for-classification), a great place to go if you're interested in starting a project after this class. The dataset structure is in the data/fruits folder. There are 6 categoriesof fruits: fresh apples, fresh oranges, fresh bananas, rotten apples, rotten oranges, and rotten bananas. This will mean that your model will require an output layer of 6 neurons to do the categorization successfully. You'll also need to compile the model with
-categorical_crossentropy, as we have more than two categories.
+In this exercise, you will train a model to recognize fresh and rotten fruits. The dataset comes from Kaggle (https://www.kaggle.com/sriramr/fruits-fresh-and-rotten-for-classification), a great place to go if you're interested in starting a project after this class. The dataset structure is in the data/fruits folder. There are 6 categoriesof fruits: fresh apples, fresh oranges, fresh bananas, rotten apples, rotten oranges, and rotten bananas. This will mean that your model will require an output layer of 6 neurons to do the categorization successfully. You'll also need to compile the model with categorical_crossentropy, as we have more than two categories.
 
 ## Load ImageNet Base Model 
 
