@@ -2,7 +2,7 @@
 
 ## Assessment
 
-Congratulations on going through today's course! Hopefully, you've learned some valuable skills along the wayand had fun doing it. Now it's time to put those skills to the test. In this assessment, you will train a new modelthat is able to recognize fresh and rotten fruit. You will need to get the model to a validation accuracy of 92% in order to pass the assessment, though we challenge you to do even better if you can. You will have to use theskills that you learned in the previous exercises. Specifically, we suggest using some combination of transferlearning, data augmentation, and fine tuning. Once you have trained the model to be at least 92% accurate onthe validation dataset, save your model, and then assess its accuracy. Let's get started!
+Congratulations on going through today's course! Hopefully, you've learned some valuable skills along the wayand had fun doing it. Now it's time to put those skills to the test. In this assessment, you will train a new modelthat is able to recognize fresh and rotten fruit. You will need to get the model to a validation accuracy of 92% in order to pass the assessment, though we challenge you to do even better if you can. You will have to use the skills that you learned in the previous exercises. Specifically, we suggest using some combination of transferlearning, data augmentation, and fine tuning. Once you have trained the model to be at least 92% accurate onthe validation dataset, save your model, and then assess its accuracy. Let's get started!
 
 ## The Dataset 
 
